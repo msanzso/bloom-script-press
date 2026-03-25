@@ -1,7 +1,7 @@
 import { createContext, useContext, useState, ReactNode } from 'react';
 import { translations, Language } from './translations';
 
-type TranslationType = typeof translations.es;
+type TranslationType = typeof translations['es'];
 
 interface LanguageContextType {
   lang: Language;
