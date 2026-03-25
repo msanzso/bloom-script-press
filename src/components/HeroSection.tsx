@@ -43,7 +43,7 @@ const HeroSection = () => {
             {t.hero.cta}
           </a>
           <a
-            href="https://wa.me/34600000000"
+            href="https://wa.me/34616935443"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 border border-primary-foreground/60 text-primary-foreground font-body text-sm tracking-widest uppercase hover:bg-primary-foreground/10 transition-colors"
