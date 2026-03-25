@@ -9,6 +9,9 @@ const ContactSection = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    const text = `Hola! Soy ${form.name}.\nTeléfono: ${form.phone}\n\n${form.message}`;
+    const url = `https://wa.me/34616935443?text=${encodeURIComponent(text)}`;
+    window.open(url, '_blank');
     toast.success(t.contact.success);
     setForm({ name: '', phone: '', message: '' });
   };
