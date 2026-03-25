@@ -72,7 +72,7 @@ const ContactSection = () => {
               {t.contact.send}
             </button>
             <a
-              href="https://wa.me/34600000000"
+              href="https://wa.me/34616935443"
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 px-6 py-3 border border-primary text-primary font-body text-sm tracking-widest uppercase text-center hover:bg-primary hover:text-primary-foreground transition-colors"
