@@ -15,7 +15,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter basename="/bloom-script-press">
+        <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="*" element={<NotFound />} />
